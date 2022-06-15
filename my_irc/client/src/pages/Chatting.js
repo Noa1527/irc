@@ -5,8 +5,6 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Channels } from '../components/Channels';
 import TalkBox from '../components/TalkBox';
-import LePen from '../assets/img/lePen.png';
-import Zemmour from '../assets/img/zemmourrifle.jpeg';
 import UserInfo from '../components/UserInfo';
 import Users from '../components/Users';
 import ChannelUsers from '../components/ChannelUsers';
@@ -67,7 +65,6 @@ const Chatting = (
                         />
                     </div>
 
-                    <img src={Zemmour} alt="" style={{ width: "100%", }} />
                 </Col>
                 <Col xs={6} md={8} className='pb-2 pt-2 h-100 position-relative'>
                     <TalkBox
@@ -112,7 +109,6 @@ const Chatting = (
                             currentReceiver={receiver}
                         />
                     }
-                    <img src={LePen} alt="" style={{ width: "100%", }} />
                 </Col>
             </Row>
         </Container>
